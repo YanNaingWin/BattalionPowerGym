@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class BattalionPower extends Model
+class GymService extends Model
 {
-        protected $fillable = [
-            'title',
-            'description',
-        ];
-
+    protected $fillable = [
+        'title',
+        'description',
+        'image'
+    ];
 }
